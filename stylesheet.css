@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+body {
+    padding: 0;
+    margin: 0;
+}
+.header {
+    height: 90px;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.header-container{
+    padding: 20px 10px;
+}
+.header-left{
+    color:white;
+    opacity: 0.7;
+    font-size: 35px;
+    float: left;
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+.signup-modal-wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+    display: none;
+  }
+  
+  .modal {
+    position: absolute;
+    top: 20%;
+    left: 34%;
+    background-color: whitesmoke;
+    padding: 20px 0 40px;
+    border-radius: 10px;
+    width: 450px;
+    height: auto;
+    text-align: center;
+  }
+
+  
+  .fa-times {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    color: rgba(128, 128, 128, 0.46);
+    cursor: pointer;
+  }
+  
+  #signup-form {
+    width: 100%;
+  }
+  
+  #signup-form h2 {
+    color: #5f5d60;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+  }
+  
+  #signup-form input {
+    width: 320px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    padding: 12px 12px;
+    border: 1px solid #d0d5d8;
+    border-radius: 5px;
+  }
+  
+  #submit-btn {
+    display: inline-block;
+    padding: 14px 140px;
+    background-color: turquoise;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    margin: 10px auto;
+    cursor: pointer;
+  }
+  #submit-btn:hover{
+    opacity: 0.7;
+  }
+  .login-modal-wrapper{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+    display: none;
+  }
+  
+
+
+.top-wrapper {
+    height: 800px;
+    background-image: url(./images/girl-1990347_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.top-container {
+    padding: 40px 20px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    
+}
+.top h1 {
+    margin-top: 150px;
+}
+.btns {
+    display: inline-block;
+    margin-right: 35px;
+    text-decoration: none;
+    background-color: turquoise;
+    margin-top: 100px;
+    padding: 10px 30px;
+    border-radius: 7px;
+    color: white;
+}
+.btns:hover{
+    opacity: 0.7;
+}
+.btn:hover {
+    opacity: 0.7;
+}
+
