@@ -28,11 +28,14 @@
  }
 .top a{
      
-    width: 50%;
+    width: 100%;
  display: inline-block;
     
   
  }
+ .top-wrapper{
+    height: 300px;
+  }
  
   
  
