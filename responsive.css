@@ -27,11 +27,10 @@
  font-size: 18px;
  }
  
- .top-btn{
+  .btns{
       width: 100%;
-  display: block;
+      display: block;
+      float: left;
   }
-  .signup-show{
-      margin-bottom: 10px;
-  }
+  
 }
