@@ -28,15 +28,6 @@
   .top-wrapper{
     width: 100%;
   }
- .signup-show{
-      width: 30%;
-      float: left;
-      display: block;
-  }
-  .login-show{
-      width: 30%;
-      float: right;
-      display: block;
-  }
+ 
 
 }
