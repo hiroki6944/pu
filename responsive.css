@@ -30,6 +30,16 @@
   width: 100%;
  }
  
+ .modal{
+   overflow: auto;
+   white-space: nowrap;
+   max-width: 670px;
+   display: inline-block;
+   vertical-align: middle;
+   width: 0px;
+   height: 100%;
+ }
+ 
   
  
  
