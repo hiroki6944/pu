@@ -28,8 +28,15 @@
   .top-wrapper{
     width: 100%;
   }
- .top-btn{
-  width: 50%;
- }
+ .signup-show{
+      width: 30%;
+      float: left;
+      display: block;
+  }
+  .login-show{
+      width: 30%;
+      float: right;
+      display: block;
+  }
 
 }
