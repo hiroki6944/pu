@@ -30,7 +30,7 @@
   width: 100%;
  }
  
- .modal{
+ .signup-modal-wrapper{
    overflow: auto;
    white-space: nowrap;
    max-width: 670px;
