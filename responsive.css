@@ -26,4 +26,11 @@
 .top h2{
  font-size: 18px;
  }
+ 
+ .btns{
+      width: 100%;
+  }
+  .signup-show{
+      margin-bottom: 10px;
+  }
 }
