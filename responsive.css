@@ -27,10 +27,10 @@
  font-size: 18px;
  }
 .top a{
-     .top a{
-    display: inline-block;
-    float: left;
+     
     width: 50%;
+ display: inline-block;
+    float: left;
   
  }
  
