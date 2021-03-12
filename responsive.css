@@ -29,6 +29,7 @@
  
  .top-btn{
       width: 100%;
+  display: block;
   }
   .signup-show{
       margin-bottom: 10px;
