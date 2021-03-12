@@ -26,12 +26,10 @@
 .top h2{
  font-size: 18px;
  }
- .top-btn a{
+.top a{
     width: 100%;
-   display: inline-block;
-    padding: 5px 1px;
-    text-align: center;
   }
+  
  
  
   
