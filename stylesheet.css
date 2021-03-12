@@ -106,7 +106,7 @@ body {
 
 
 .top-wrapper {
-    height: 800px;
+    
     background-image: url(./images/girl-1990347_1280.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -117,6 +117,9 @@ body {
     font-size: 40px;
     color: white;
     width: 100%;
+}
+.clear{
+  clear: left;
 }
 .top h1 {
     margin-top: 150px;
@@ -140,19 +143,4 @@ body {
 
 
 /* スマートフォン */
-@media (maz-width: 670px) {
-  .header{
-    width: 100%;
-  }
-  .signup-modal-wrapper{
-    width: 70%;
-  }
-  .login-modal-wrapper{
-    width: 70%;
-  }
-  .top-wrapper{
-    width: 100%;
-  }
-
-}
 
