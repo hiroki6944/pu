@@ -26,11 +26,10 @@
 .top h2{
  font-size: 18px;
  }
- .btns {
-    display: inline-block;
-    margin-right: 35px;
-  margin-bottom: 20px
- }
+ .top-btn a{
+    width: 100%;
+  }
+ 
  
   
 }
