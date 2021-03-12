@@ -28,5 +28,8 @@
   .top-wrapper{
     width: 100%;
   }
+ .top-btn{
+  width: 50%;
+ }
 
 }
