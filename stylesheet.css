@@ -133,3 +133,21 @@ body {
     opacity: 0.7;
 }
 
+
+/* スマートフォン */
+@media (maz-width: 670px) {
+  .header{
+    width: 100%;
+  }
+  .signup-modal-wrapper{
+    width: 70%;
+  }
+  .login-modal-wrapper{
+    width: 70%;
+  }
+  .top-wrapper{
+    width: 100%;
+  }
+
+}
+
