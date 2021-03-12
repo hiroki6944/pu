@@ -25,9 +25,15 @@
   .login-modal-wrapper{
     width: 70%;
   }
-  .top-wrapper{
-    width: 100%;
-  }
  
-
+.btns{
+      width: 100%;
+  }
+  .signup-show{
+      margin-bottom: 10px;
+  }
+  .top-wrapper{
+      text-align: left;
+      padding: 130px;
+  }
 }
