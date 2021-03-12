@@ -1,0 +1,32 @@
+/* タブレット */
+@media (max-width: 1000px) {
+ body{
+     padding: 0;
+     margin: 0;
+ }
+ 
+}
+
+
+
+
+/* スマートフォン */
+@media (maz-width: 670px) {
+    body{
+        padding: 0;
+        margin: 0;
+    }
+  .header{
+    width: 100%;
+  }
+  .signup-modal-wrapper{
+    width: 70%;
+  }
+  .login-modal-wrapper{
+    width: 70%;
+  }
+  .top-wrapper{
+    width: 100%;
+  }
+
+}
