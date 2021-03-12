@@ -19,13 +19,11 @@
   .header{
     width: 100%;
   }
-  .signup-modal-wrapper{
-    width: 70%;
-  }
-  .login-modal-wrapper{
-    width: 70%;
-  }
+ 
  .top-wrapper h1{
-      font-size: 18px;
+      font-size: 24px;
   }
+ .top-wrapper h2{
+  font-size: 18px
+}
 }
