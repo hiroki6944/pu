@@ -11,13 +11,13 @@ body {
 .header {
     height: 90px;
     background-color: black;
-    width: 100%;
+  width: 100%;
     position: fixed;
     top: 0;
     z-index: 10;
 }
-.header-container{
-    padding: 20px 10px;
+.container{
+    padding: 20px 20px;
     width: 100%;
 }
 .header-left{
@@ -31,12 +31,14 @@ body {
 .signup-modal-wrapper {
     position: fixed;
     top: 0;
-    right: 0;
     bottom: 0;
+    right: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.6);
     z-index: 100;
     display: none;
+   
+    
   }
   
   .modal {
@@ -49,7 +51,11 @@ body {
     width: 450px;
     height: auto;
     text-align: center;
+    
+    
   }
+
+  
 
   
   .fa-times {
@@ -106,23 +112,20 @@ body {
 
 
 .top-wrapper {
-    
+    height: 800px;
+   width: 100%;
     background-image: url(./images/girl-1990347_1280.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-.top-container {
-    padding: 40px 20px;
-    text-align: center;
+.top {
+  
+  text-align: center;
+}
+.ooo {
+    margin-top: 150px;
     font-size: 40px;
     color: white;
-    width: 100%;
-}
-.clear{
-  clear: left;
-}
-.top h1 {
-    margin-top: 150px;
 }
 .btns {
     display: inline-block;
@@ -133,6 +136,7 @@ body {
     padding: 10px 30px;
     border-radius: 7px;
     color: white;
+    font-size: 28px;
 }
 .btns:hover{
     opacity: 0.7;
@@ -142,5 +146,9 @@ body {
 }
 
 
-/* スマートフォン */
+
+
+
+
+
 
