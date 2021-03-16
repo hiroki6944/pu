@@ -1,1 +1,108 @@
+/* モバイルS */
+@media screen and (min-width:320px) and (max-width:375px) {
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    .top-wrapper{
+        height: 1000px;
+    }
+    .header-left{
+        font-size: 30px;
+    }
+    .ooo{
+        font-size: 20px;
+    }
+    .btns{
+        width: 60%;
+        margin: auto;
+    }
+    .signup-show{
+        margin-top: 190px;
+        margin-bottom: 40px;
+    }
+    .modal{
+        top: 20%;
+        left: 1%;
+        width: 370px;
+        transform: scale(0.6,0.6);
+    }
+}
 
+
+
+/* モバイルM */
+@media screen and (min-width:375px) and (max-width:425px){
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    .top-wrapper{
+        height: 1000px;
+    }
+    .header-left{
+        font-size: 30px;
+    }
+    .ooo{
+        font-size: 20px;
+    }
+    .btns{
+        width: 60%;
+        margin: auto;
+    }
+    .signup-show{
+        margin-top: 240px;
+        margin-bottom: 40px;
+    }
+    .modal{
+        top: 20%;
+        left: 1%;
+        width: 370px;
+        transform: scale(0.6,0.6);
+    }
+}
+
+
+
+/* モバイルL */
+@media screen and (min-width:425px) and (max-width:768px) {
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    .top-wrapper{
+        height: 1000px;
+    }
+    .header-left{
+        font-size: 30px;
+    }
+    .ooo{
+        font-size: 20px;
+    }
+    .btns{
+        width: 60%;
+        margin: auto;
+    }
+    .signup-show{
+        margin-top: 240px;
+        margin-bottom: 40px;
+    }
+    .modal{
+        top: 20%;
+        left: 8%;
+        width: 370px;
+        transform: scale(0.6,0.6);
+    }
+}
+
+
+
+/* タブレット　*/
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .modal{
+        top: 20%;
+        left: 26%;
+        width: 400px;
+        transform: scale(0.8,0.8);
+    }
+}
